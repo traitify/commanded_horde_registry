@@ -16,7 +16,7 @@
 Add the following to your mix.exs deps:
 
 ```elixir
-    {:commanded_horde_registry, "~> 1.0.0-alpha.0"}
+    {:commanded_horde_registry, "~> 1.2"}
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
@@ -30,4 +30,3 @@ I've updated to Horde 0.7 and now am targeting Commanded 1.0. One thing to note
 is that we are only providing a distributed process registry. The
 `Commanded.Aggregate.Supervisor` will still be a basic DynamicSupervisor and
 aggregates will not be restarted in the event of a node exit.
-
